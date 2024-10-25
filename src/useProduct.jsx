@@ -6,7 +6,7 @@ function useProduct() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products?limit=2", { mode: "cors" })
+    fetch("https://fakestoreapi.com/products?limit=1", { mode: "cors" })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");

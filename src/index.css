@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-.card {
-  width: 180px;
-}
 .card-image {
   width: 100px;
 }
