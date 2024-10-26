@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function useProduct() {
+export default function useProduct() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -20,5 +20,3 @@ function useProduct() {
 
   return { data, error, loading };
 }
-
-export default useProduct;

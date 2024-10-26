@@ -1,9 +1,8 @@
-function Checkout() {
+export default function Checkout() {
   return (
     <>
+      <h3>Checkout Page</h3>
       <div></div>
     </>
   );
 }
-
-export default Checkout;
