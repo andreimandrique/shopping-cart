@@ -2,7 +2,7 @@ import App from "./App";
 import Product from "./Product";
 import Checkout from "./Checkout";
 import ErrorPage from "./ErrorPage";
-import DefaultPage from "./DefaultPage";
+import DefaultPage from "./pages/DefaultPage";
 
 const routes = [
   {

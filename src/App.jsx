@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Header from "./Header";
+import Header from "./components/Header";
 import useProduct from "./useProduct";
 import { useState } from "react";
 
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <Header productCount={product.length} />
+      <Header numberOfProduct={product.length} />
       <Outlet context={{ data, setProduct, product }} />
     </>
   );
